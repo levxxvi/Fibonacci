@@ -26,6 +26,13 @@ public class Main {
         System.out.println(fib(9));
     }
 
+    /**
+     *
+     * @param num amount of terms in the sequence. must be greater than 0
+     * @return the fibonacci number at "num" term
+     *          For example: fib(13) = 337;
+     */
+
     public static int fib(int num){
         if(num == 1){
             return num;
